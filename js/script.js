@@ -18,9 +18,9 @@ movies.onreadystatechange = function () {
 console.log(movieData);
  function checkLocation (element, index, array) {
      if (element[10] === "Golden Gate Bridge") {
-         output += "<p>Title: </p>" + element[8];
-         output += " <p>Release year:</p> " + element[9];
-         output += " <p>Production company: </p>" + element[12] + "</br>";
+         output += "<p class=\"output\">Title: </p>" + element[8];
+         output += " <p class=\"output\">Release year:</p> " + element[9];
+         output += " <p class=\"output\">Production company: </p>" + element[12] + "</br>";
      }
 
  }
